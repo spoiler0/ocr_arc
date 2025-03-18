@@ -89,7 +89,7 @@ def main():
     if uploaded_file is not None:
         # 이미지 표시
         image = Image.open(uploaded_file)
-        st.image(image, caption="업로드된 이미지")
+        st.image(image, caption="업로드된 이미지", use_container_width=True)
 
         # OCR 처리 시작
         if st.button("정보 추출 시작"):
