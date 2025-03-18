@@ -1,4 +1,4 @@
-streamlit
-requests
-Pillow
-openai
+streamlit==1.40.1
+requests==2.28.1
+Pillow==9.0.1
+openai==1.66.3
